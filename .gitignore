@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data and training artifacts
+datasets/
+data/
+*.mp4
+*.avi
+sample_videos/
+training_logs/
+wandb/
+tb_logs/
+
+# Large non-model files
+*.zip
+*.tar
+*.tar.gz
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Git LFS (for future large file management)
+*.pth
+*.ckpt
+*.h5
