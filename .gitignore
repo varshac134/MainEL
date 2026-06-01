@@ -6,6 +6,7 @@ __pycache__/
 .Python
 env/
 venv/
+.venv/
 ENV/
 build/
 develop-eggs/
@@ -46,6 +47,7 @@ training_logs/
 wandb/
 tb_logs/
 
+
 # Large non-model files
 *.zip
 *.tar
@@ -55,6 +57,9 @@ tb_logs/
 *.tmp
 *.temp
 .cache/
+
+# Local toolchains
+tools/llvm/
 
 # Git LFS (for future large file management)
 *.pth

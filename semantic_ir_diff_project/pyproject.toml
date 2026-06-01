@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semantic-ir-diff"
+version = "0.1.0"
+description = "Semantic LLVM IR diff tool for comparing source revisions and identifying optimization changes."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "click>=8.0",
+    "rich>=13.0"
+]
+
+[project.scripts]
+semantic-ir-diff = "semantic_ir_diff.cli:main"
+semantic-ir-diff-eval = "semantic_ir_diff.evaluator:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["semantic_ir_diff*"]

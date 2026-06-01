@@ -1,0 +1,3 @@
+id,old_commit,new_commit,file_path,description,expected_labels
+1,OLD_COMMIT_HASH,NEW_COMMIT_HASH,src/example.c,"Change loop bound to runtime value","loop vectorization lost;instruction count changed"
+2,OLD_COMMIT_HASH,NEW_COMMIT_HASH,src/helper.cpp,"Refactor helper into hot inline path","calls removed;inlining changed"
